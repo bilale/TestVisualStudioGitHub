@@ -24,6 +24,7 @@ namespace Grant
             var task2 = new Braincase.GanttChart.Task() { Name = "Hello" };
             
             // add the task to the manager
+            manager.Add(task2);
             manager.Add(task);
             manager.Add(task1);
            
