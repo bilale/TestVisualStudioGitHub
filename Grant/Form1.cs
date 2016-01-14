@@ -29,7 +29,7 @@ namespace Grant
             manager.Add(task);
             manager.Add(task1);
 
-           
+            manager.Add(task3);
             manager.Split(task,task1,2);
 
             //manager.SetDuration(task, 3);
