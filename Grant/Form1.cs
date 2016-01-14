@@ -21,6 +21,7 @@ namespace Grant
             // create built-in task or use your own derived task
             var task = new Braincase.GanttChart.Task() { Name = "Hello World"};
             var task1 = new Braincase.GanttChart.Task() { Name = " World" };
+            var task2 = new Braincase.GanttChart.Task() { Name = "Hello" };
             
             // add the task to the manager
             manager.Add(task);
