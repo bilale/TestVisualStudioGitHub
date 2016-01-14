@@ -19,7 +19,7 @@ namespace Grant
             // create a project manager
             var manager = new ProjectManager();
             // create built-in task or use your own derived task
-            var task = new Braincase.GanttChart.Task() { Name = "Hello World"};
+            var task = new Braincase.GanttChart.Task() { Name = "Hello "};
             var task1 = new Braincase.GanttChart.Task() { Name = " World" };
             var task2 = new Braincase.GanttChart.Task() { Name = "Helly" };
             
